@@ -3,14 +3,14 @@
 #Warning!
 Remember to make a backup before modifying any save file.
 
-Save files are located in **"\Documents\EA Games\Dead Space 2"**.
+Save files are located in **"\Documents\EA Games\Dead Space 2"**. Number in filename represents slot number in game.
 
 #Key Features
 * Change Credist and Power Nodes amount
 * Activate Infinite Ammo and Stasis
 * Select active Suit
 * Edit Inventory, Safe and Shop items
-* Unlock every Suit and Weapon
+* Unlock every Suit and Weapon (including all DLC and Bonus items)
 
 #Bonus
 * You can use Patient Suit from 1st chapter all game long. Seems like it gives you infinite air.
