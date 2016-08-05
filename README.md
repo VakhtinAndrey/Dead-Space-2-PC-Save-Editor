@@ -6,7 +6,7 @@ Remember to make a backup before modifying any save file.
 Save files are located in **"\Documents\EA Games\Dead Space 2"**. Number in filename represents slot number in game.
 
 #Key Features
-* Change Credist and Power Nodes amount
+* Change Credits and Power Nodes amount
 * Activate Infinite Ammo and Stasis
 * Select active Suit
 * Edit Inventory, Safe and Shop items
