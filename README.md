@@ -19,6 +19,9 @@ Save files are located in **"\Documents\EA Games\Dead Space 2"**. Number in file
 #Requirements
 * .NET Framework 4.0 or Newer
 
+#Credits
+* Thanks to [Adam Spindler](https://github.com/Experiment5X) for [EA's MC02 algorithm](https://gist.github.com/Experiment5X/5025310).
+
 #Screenshots
 ![Main](/Screenshots/Main.jpg)
 ![Items Editor](/Screenshots/ItemsEditor1.jpg)
