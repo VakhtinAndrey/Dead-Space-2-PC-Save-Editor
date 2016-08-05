@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Difficulty_Easy" xml:space="preserve">
+    <value>Casual</value>
+  </data>
+  <data name="Difficulty_Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="Difficulty_Hard" xml:space="preserve">
+    <value>Survivalist</value>
+  </data>
+  <data name="Difficulty_VeryHard" xml:space="preserve">
+    <value>Zealot</value>
+  </data>
+  <data name="Difficulty_Impossible" xml:space="preserve">
+    <value>Hard Core</value>
+  </data>
+  <data name="Suit_PatientSuit" xml:space="preserve">
+    <value>Patient Suit</value>
+  </data>
+  <data name="Suit_EngineeringSuit" xml:space="preserve">
+    <value>Engineering Suit</value>
+  </data>
+  <data name="Suit_SecuritySuit" xml:space="preserve">
+    <value>Security Suit</value>
+  </data>
+  <data name="Suit_VintageSuit" xml:space="preserve">
+    <value>Vintage Suit</value>
+  </data>
+  <data name="Suit_AdvancedSuit" xml:space="preserve">
+    <value>Advanced Suit</value>
+  </data>
+  <data name="Suit_EliteEngineeringSuit" xml:space="preserve">
+    <value>Elite Engineering Suit</value>
+  </data>
+  <data name="Suit_EliteVintageSuit" xml:space="preserve">
+    <value>Elite Vintage Suit</value>
+  </data>
+  <data name="Suit_EliteSecuritySuit" xml:space="preserve">
+    <value>Elite Security Suit</value>
+  </data>
+  <data name="Suit_EliteAdvancedSuit" xml:space="preserve">
+    <value>Elite Advanced Suit</value>
+  </data>
+  <data name="Suit_RiotSecuritySuit" xml:space="preserve">
+    <value>Riot Security Suit</value>
+  </data>
+  <data name="Suit_ArcticSecuritySuit" xml:space="preserve">
+    <value>Arctic Security Suit</value>
+  </data>
+  <data name="Suit_SoldierSuit" xml:space="preserve">
+    <value>Soldier Suit</value>
+  </data>
+  <data name="Suit_BloodyVintageSuit" xml:space="preserve">
+    <value>Bloody Vintage Suit</value>
+  </data>
+  <data name="Suit_EarthgovSecuritySuit" xml:space="preserve">
+    <value>Earthgov Security Suit</value>
+  </data>
+  <data name="Suit_ForgedEngineeringSuit" xml:space="preserve">
+    <value>Forged Engineering Suit</value>
+  </data>
+  <data name="Suit_HeavyDutyVintageSuit" xml:space="preserve">
+    <value>Heavy Duty Vintage Suit</value>
+  </data>
+  <data name="Suit_AgilityAdvancedSuit" xml:space="preserve">
+    <value>Agility Advanced Suit</value>
+  </data>
+  <data name="Suit_HazardSuit" xml:space="preserve">
+    <value>Hazard Suit</value>
+  </data>
+  <data name="Suit_TriageSuit" xml:space="preserve">
+    <value>Triage Suit</value>
+  </data>
+  <data name="Suit_ShockpointSuit" xml:space="preserve">
+    <value>Shockpoint Suit</value>
+  </data>
+  <data name="Suit_ZealotSuit" xml:space="preserve">
+    <value>Zealot Suit</value>
+  </data>
+  <data name="Suit_HackerSuit" xml:space="preserve">
+    <value>Hacker Suit</value>
+  </data>
+  <data name="Suit_PartolSuit" xml:space="preserve">
+    <value>Partol Suit</value>
+  </data>
+  <data name="Ammo_ContactEnergy" xml:space="preserve">
+    <value>Contact Energy</value>
+  </data>
+  <data name="Ammo_DetonatorMines" xml:space="preserve">
+    <value>Detonator Mines</value>
+  </data>
+  <data name="Ammo_FlameFuel" xml:space="preserve">
+    <value>Flame Fuel</value>
+  </data>
+  <data name="Ammo_ForceEnergy" xml:space="preserve">
+    <value>Force Energy</value>
+  </data>
+  <data name="Ammo_JavelinSpears" xml:space="preserve">
+    <value>Javelin Spears</value>
+  </data>
+  <data name="Ammo_LineRacks" xml:space="preserve">
+    <value>Line Racks</value>
+  </data>
+  <data name="Ammo_PlasmaEnergy" xml:space="preserve">
+    <value>Plasma Energy</value>
+  </data>
+  <data name="Ammo_PlasmaEnergy2" xml:space="preserve">
+    <value>Plasma Energy 2</value>
+  </data>
+  <data name="Ammo_PulseRounds" xml:space="preserve">
+    <value>Pulse Rounds</value>
+  </data>
+  <data name="Ammo_RipperBlades" xml:space="preserve">
+    <value>Ripper Blades</value>
+  </data>
+  <data name="Ammo_RivetBolts" xml:space="preserve">
+    <value>Rivet Bolts</value>
+  </data>
+  <data name="Ammo_SeekerShells" xml:space="preserve">
+    <value>Seeker Shells</value>
+  </data>
+  <data name="Consumable_LargeMedPack" xml:space="preserve">
+    <value>Large Med Pack</value>
+  </data>
+  <data name="Consumable_MediumMedPack" xml:space="preserve">
+    <value>Medium Med Pack</value>
+  </data>
+  <data name="Consumable_PowerNode" xml:space="preserve">
+    <value>Power Node</value>
+  </data>
+  <data name="Consumable_SmallMedPack" xml:space="preserve">
+    <value>Small Med Pack</value>
+  </data>
+  <data name="Consumable_StasisPack" xml:space="preserve">
+    <value>Stasis Pack</value>
+  </data>
+  <data name="Misc_BronzeSemiconductor" xml:space="preserve">
+    <value>Bronze Semiconductor</value>
+  </data>
+  <data name="Misc_DiamondSemiconductor" xml:space="preserve">
+    <value>Diamond Semiconductor</value>
+  </data>
+  <data name="Misc_GoldSemiconductor" xml:space="preserve">
+    <value>Gold Semiconductor</value>
+  </data>
+  <data name="Misc_Peng" xml:space="preserve">
+    <value>Peng</value>
+  </data>
+  <data name="Misc_RubySemiconductor" xml:space="preserve">
+    <value>Ruby Semiconductor</value>
+  </data>
+  <data name="Schematic_AdvancedSuitSchematic" xml:space="preserve">
+    <value>Advanced Suit Schematic</value>
+  </data>
+  <data name="Schematic_ContactBeamSchematic" xml:space="preserve">
+    <value>Contact Beam Schematic</value>
+  </data>
+  <data name="Schematic_ContactEnergySchematic" xml:space="preserve">
+    <value>Contact Energy Schematic</value>
+  </data>
+  <data name="Schematic_DetonatorSchematic" xml:space="preserve">
+    <value>Detonator Schematic</value>
+  </data>
+  <data name="Schematic_DetonatorMineSchematic" xml:space="preserve">
+    <value>Detonator Mines Schematic</value>
+  </data>
+  <data name="Schematic_EliteAdvancedSuitSchematic" xml:space="preserve">
+    <value>Elite Advanced Suit Schematic</value>
+  </data>
+  <data name="Schematic_EliteEngineeringSuitSchematic" xml:space="preserve">
+    <value>Elite Engineering Suit Schematic</value>
+  </data>
+  <data name="Schematic_EliteSecuritySuitSchematic" xml:space="preserve">
+    <value>Elite Security Suit Schematic</value>
+  </data>
+  <data name="Schematic_EliteVintageSuitSchematic" xml:space="preserve">
+    <value>Elite Vintage </value>
+  </data>
+  <data name="Schematic_FlameFuelSchematic" xml:space="preserve">
+    <value>Flame Fuel Schematic</value>
+  </data>
+  <data name="Schematic_FlamethrowerSchematic" xml:space="preserve">
+    <value>Flamethrower Schematic</value>
+  </data>
+  <data name="Schematic_ForceEnergySchematic" xml:space="preserve">
+    <value>Force Energy Schematic</value>
+  </data>
+  <data name="Schematic_ForceGunSchematic" xml:space="preserve">
+    <value>Force Gun Schematic</value>
+  </data>
+  <data name="Schematic_HackerSuitSchematic" xml:space="preserve">
+    <value>Hacker Schematic</value>
+  </data>
+  <data name="Schematic_HackerContactBeamSchematic" xml:space="preserve">
+    <value>Hacker Contact Beam Schematic</value>
+  </data>
+  <data name="Schematic_JavelinSpearSchematic" xml:space="preserve">
+    <value>Javelin Spears Schematic</value>
+  </data>
+  <data name="Schematic_LargeMedPackSchematic" xml:space="preserve">
+    <value>Large Med Pack Schematic</value>
+  </data>
+  <data name="Schematic_MediumMedPackSchematic" xml:space="preserve">
+    <value>Medium Med Pack Schematic</value>
+  </data>
+  <data name="Schematic_PowerNodeSchematic" xml:space="preserve">
+    <value>Power Node Schematic</value>
+  </data>
+  <data name="Schematic_PulseRifleSchematic" xml:space="preserve">
+    <value>Pulse Rifle Schematic</value>
+  </data>
+  <data name="Schematic_PulseRoundsSchematic" xml:space="preserve">
+    <value>Pulse Rounds Schematic</value>
+  </data>
+  <data name="Schematic_RipperSchematic" xml:space="preserve">
+    <value>Ripper Schematic</value>
+  </data>
+  <data name="Schematic_RipperEnergySchematic" xml:space="preserve">
+    <value>Ripper Energy Schematic</value>
+  </data>
+  <data name="Schematic_SecuritySuitSchematic" xml:space="preserve">
+    <value>Security Suit Schematic</value>
+  </data>
+  <data name="Schematic_SeekerRifleSchematic" xml:space="preserve">
+    <value>Seeker Rifle Schematic</value>
+  </data>
+  <data name="Schematic_SeekerShellsSchematic" xml:space="preserve">
+    <value>Seeker Shells Schematic</value>
+  </data>
+  <data name="Schematic_StasisPackSchematic" xml:space="preserve">
+    <value>Stasis Pack Schematic</value>
+  </data>
+  <data name="Schematic_VintageSuitSchematic" xml:space="preserve">
+    <value>Vintage Suit Schematic</value>
+  </data>
+  <data name="Weapon_AgilityPlasmaCutter" xml:space="preserve">
+    <value>Agility Plasma Cutter</value>
+  </data>
+  <data name="Weapon_AgilityPulseRifle" xml:space="preserve">
+    <value>Agility Pulse Rifle</value>
+  </data>
+  <data name="Weapon_AgilityRivetGun" xml:space="preserve">
+    <value>Agility Rivet Gun</value>
+  </data>
+  <data name="Weapon_BloodyFlamethrower" xml:space="preserve">
+    <value>Bloody Flamethrower</value>
+  </data>
+  <data name="Weapon_BloodyForceGun" xml:space="preserve">
+    <value>Bloody Force Gun</value>
+  </data>
+  <data name="Weapon_BloodyJavelinGun" xml:space="preserve">
+    <value>Bloody Javelin Gun</value>
+  </data>
+  <data name="Weapon_ContactBeam" xml:space="preserve">
+    <value>Contact Beam</value>
+  </data>
+  <data name="Weapon_Detonator" xml:space="preserve">
+    <value>Detonator</value>
+  </data>
+  <data name="Weapon_EarthgovDetonator" xml:space="preserve">
+    <value>Earthgov Detonator</value>
+  </data>
+  <data name="Weapon_EarthgovPulseRifle" xml:space="preserve">
+    <value>Earthgov Pulse Rifle</value>
+  </data>
+  <data name="Weapon_EarthgovSeekerRifle" xml:space="preserve">
+    <value>Earthgov Seeker Rifle</value>
+  </data>
+  <data name="Weapon_Flamethrower" xml:space="preserve">
+    <value>Flamethrower</value>
+  </data>
+  <data name="Weapon_ForceGun" xml:space="preserve">
+    <value>Force Gun</value>
+  </data>
+  <data name="Weapon_ForgedLineGun" xml:space="preserve">
+    <value>Forged Line Gun</value>
+  </data>
+  <data name="Weapon_ForgedPlasmaCutter" xml:space="preserve">
+    <value>Forged Plasma Cutter</value>
+  </data>
+  <data name="Weapon_ForgedRipper" xml:space="preserve">
+    <value>Forged Ripper</value>
+  </data>
+  <data name="Weapon_HackerContactBeam" xml:space="preserve">
+    <value>Hacker Contact Beam</value>
+  </data>
+  <data name="Weapon_HandCannon" xml:space="preserve">
+    <value>Hand Cannon</value>
+  </data>
+  <data name="Weapon_HazardLineGun" xml:space="preserve">
+    <value>Hazard Line Gun</value>
+  </data>
+  <data name="Weapon_HeavyDutyContactBeam" xml:space="preserve">
+    <value>Heavy Duty Contact Beam</value>
+  </data>
+  <data name="Weapon_HeavyDutyDetonator" xml:space="preserve">
+    <value>Heavy Duty Detonator</value>
+  </data>
+  <data name="Weapon_HeavyDutyLineGun" xml:space="preserve">
+    <value>Heavy Duty Line Gun</value>
+  </data>
+  <data name="Weapon_Javelin" xml:space="preserve">
+    <value>Javelin</value>
+  </data>
+  <data name="Weapon_LineGun" xml:space="preserve">
+    <value>Line Gun</value>
+  </data>
+  <data name="Weapon_PatrolSeekerRifle" xml:space="preserve">
+    <value>Patrol Seeker Rifle</value>
+  </data>
+  <data name="Weapon_PlasmaCutter" xml:space="preserve">
+    <value>Plasma Cutter</value>
+  </data>
+  <data name="Weapon_PulseRifle" xml:space="preserve">
+    <value>Pulse Rifle</value>
+  </data>
+  <data name="Weapon_RefubrishedPlasmaCutter" xml:space="preserve">
+    <value>Refubrished Plasma Cutter</value>
+  </data>
+  <data name="Weapon_Ripper" xml:space="preserve">
+    <value>Ripper</value>
+  </data>
+  <data name="Weapon_RivetGun" xml:space="preserve">
+    <value>Rivet Gun</value>
+  </data>
+  <data name="Weapon_SeekerRifle" xml:space="preserve">
+    <value>Seeker Rifle</value>
+  </data>
+  <data name="Weapon_ShockpointRipper" xml:space="preserve">
+    <value>Shockpoint Ripper</value>
+  </data>
+  <data name="Weapon_TriageJavelinGun" xml:space="preserve">
+    <value>Triage Javelin Gun</value>
+  </data>
+  <data name="Weapon_ZealotForceGun" xml:space="preserve">
+    <value>Zealot Force Gun</value>
+  </data>
+  <data name="Weapon_Flashlight" xml:space="preserve">
+    <value>Flashlight</value>
+  </data>
+  <data name="Misc_GoldSemiconductor2" xml:space="preserve">
+    <value>Gold Semiconductor 2</value>
+  </data>
+  <data name="Schematic_LineAmmoSchematic" xml:space="preserve">
+    <value>Line Ammo Schematic</value>
+  </data>
+</root>
