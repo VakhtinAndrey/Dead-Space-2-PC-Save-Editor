@@ -22,6 +22,9 @@ Save files are located in **"\Documents\EA Games\Dead Space 2"**. Number in file
 #Credits
 * Thanks to [Adam Spindler](https://github.com/Experiment5X) for [EA's MC02 algorithm](https://gist.github.com/Experiment5X/5025310).
 
+#Download
+Downloads may be found on [Releases page](https://github.com/VakhtinAndrey/Dead-Space-2-PC-Save-Editor/releases).
+
 #Screenshots
 ![Main](/Screenshots/Main.jpg)
 ![Items Editor](/Screenshots/ItemsEditor1.jpg)
