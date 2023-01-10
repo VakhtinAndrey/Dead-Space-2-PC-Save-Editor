@@ -141,4 +141,7 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  <PropertyGroup>
+    <PostBuildEvent>xcopy /Y "$(TargetDir)*$(TargetExt)" "$(SolutionDir)\download\"</PostBuildEvent>
+  </PropertyGroup>  
 </Project>

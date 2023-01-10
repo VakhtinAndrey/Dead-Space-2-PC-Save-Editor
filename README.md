@@ -15,6 +15,7 @@ Save files are located in **"\Documents\EA Games\Dead Space 2"**. Number in file
 #Bonus
 * You can use Patient Suit from 1st chapter all game long. Seems like it gives you infinite air.
 * You can rehash modified in hex-editor save file to pass the in-game validation (recalculate MC02 and DS2-specific checksums).
+DevNote: result is NOT byte perfect.
 
 #Requirements
 * .NET Framework 4.0 or Newer
@@ -23,7 +24,7 @@ Save files are located in **"\Documents\EA Games\Dead Space 2"**. Number in file
 * Thanks to [Adam Spindler](https://github.com/Experiment5X) for [EA's MC02 algorithm](https://gist.github.com/Experiment5X/5025310).
 
 #Download
-Downloads may be found on [Releases page](https://github.com/VakhtinAndrey/Dead-Space-2-PC-Save-Editor/releases).
+Download [here](./download/DeadSpace2SaveEditor.exe).
 
 #Screenshots
 ![Main](/Screenshots/Main.jpg)
