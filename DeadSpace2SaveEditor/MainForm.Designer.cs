@@ -60,6 +60,10 @@
             this.cbInfiniteAmmo = new System.Windows.Forms.CheckBox();
             this.cbActiveSuit = new System.Windows.Forms.ComboBox();
             this.lblActiveSuit = new System.Windows.Forms.Label();
+            this.cbJacket = new System.Windows.Forms.CheckBox();
+            this.cbStasis = new System.Windows.Forms.CheckBox();
+            this.cbKinesis = new System.Windows.Forms.CheckBox();
+            this.cbInvCP = new System.Windows.Forms.CheckBox();
             this.msMainMenu.SuspendLayout();
             this.gbFileMetadata.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudCredits)).BeginInit();
@@ -377,6 +381,51 @@
             this.lblActiveSuit.TabIndex = 7;
             this.lblActiveSuit.Text = "Active Suit:";
             // 
+            // cbJacket
+            // 
+            this.cbJacket.AutoSize = true;
+            this.cbJacket.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.cbJacket.Location = new System.Drawing.Point(191, 188);
+            this.cbJacket.Name = "cbJacket";
+            this.cbJacket.Size = new System.Drawing.Size(77, 22);
+            this.cbJacket.TabIndex = 6;
+            this.cbJacket.Text = "Jacket";
+            this.cbJacket.UseVisualStyleBackColor = true;
+            // 
+            // cbStasis
+            // 
+            this.cbStasis.AutoSize = true;
+            this.cbStasis.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.cbStasis.Location = new System.Drawing.Point(269, 188);
+            this.cbStasis.Name = "cbStasis";
+            this.cbStasis.Size = new System.Drawing.Size(74, 22);
+            this.cbStasis.TabIndex = 5;
+            this.cbStasis.Text = "Stasis";
+            this.cbStasis.UseVisualStyleBackColor = true;
+            // 
+            // cbKinesis
+            // 
+            this.cbKinesis.AutoSize = true;
+            this.cbKinesis.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.cbKinesis.Location = new System.Drawing.Point(343, 188);
+            this.cbKinesis.Name = "cbKinesis";
+            this.cbKinesis.Size = new System.Drawing.Size(82, 22);
+            this.cbKinesis.TabIndex = 5;
+            this.cbKinesis.Text = "Kinesis";
+            this.cbKinesis.UseVisualStyleBackColor = true;
+            // 
+            // cbInvCP
+            // 
+            this.cbInvCP.AutoSize = true;
+            this.cbInvCP.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.cbInvCP.Location = new System.Drawing.Point(269, 225);
+            this.cbInvCP.Name = "cbInvCP";
+            this.cbInvCP.Size = new System.Drawing.Size(153, 22);
+            this.cbInvCP.TabIndex = 6;
+            this.cbInvCP.Text = "Invalid CP toggle";
+            this.cbInvCP.UseVisualStyleBackColor = true;
+            this.cbInvCP.Visible = false;
+            // 
             // MainForm
             // 
             this.AllowDrop = true;
@@ -386,7 +435,11 @@
             this.Controls.Add(this.btnEditItems);
             this.Controls.Add(this.lblActiveSuit);
             this.Controls.Add(this.cbActiveSuit);
+            this.Controls.Add(this.cbInvCP);
+            this.Controls.Add(this.cbJacket);
             this.Controls.Add(this.cbInfiniteAmmo);
+            this.Controls.Add(this.cbKinesis);
+            this.Controls.Add(this.cbStasis);
             this.Controls.Add(this.cbInfiniteStasis);
             this.Controls.Add(this.nudNodes);
             this.Controls.Add(this.lblNodes);
@@ -447,6 +500,10 @@
         private System.Windows.Forms.CheckBox cbInfiniteAmmo;
         private System.Windows.Forms.ComboBox cbActiveSuit;
         private System.Windows.Forms.Label lblActiveSuit;
+        private System.Windows.Forms.CheckBox cbJacket;
+        private System.Windows.Forms.CheckBox cbStasis;
+        private System.Windows.Forms.CheckBox cbKinesis;
+        private System.Windows.Forms.CheckBox cbInvCP;
     }
 }
 

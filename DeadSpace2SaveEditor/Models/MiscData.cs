@@ -52,8 +52,8 @@ namespace DeadSpace2SaveEditor.Models
             InventorySlots = stream.ReadInt32();
             DamageRatio = stream.ReadFloat();
             Unk3 = stream.ReadInt32();
+            //System.Windows.Forms.MessageBox.Show(stream.Position.ToString("X"));
             stream.Read(Flags, 0, 8);
-
             stream.Position = origPos;
         }
 

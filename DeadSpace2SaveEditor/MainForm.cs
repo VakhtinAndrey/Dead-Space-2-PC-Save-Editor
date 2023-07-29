@@ -92,6 +92,9 @@ namespace DeadSpace2SaveEditor
             {
                 _miscData = value;
                 cbInfiniteAmmo.Checked = value != null && value.Flags[(byte) Flags.InfiniteAmmo] != 0;
+                cbJacket.Checked = value != null && value.Flags[(byte) Flags.IsTied] != 0;
+                cbKinesis.Checked = value != null && value.Flags[(byte) Flags.KinesisIsActive] != 0;
+                cbStasis.Checked = value != null && value.Flags[(byte) Flags.StasisIsActive] != 0;
                 cbInfiniteStasis.Checked = value?.Stasis > 100000000;
                 nudNodes.Value = value?.Nodes ?? 0;
                 if (value != null)
@@ -366,7 +369,20 @@ namespace DeadSpace2SaveEditor
             {
                 MiscData.Stasis = float.MaxValue;
             }
+            if (cbInvCP.Checked)
+            {
+                DataStream.Seek(0x2894,SeekOrigin.Begin);
+                var v1 = DataStream.ReadUInt32();
+                var v2 = DataStream.ReadUInt32();
+                DataStream.Seek(0x2894, SeekOrigin.Begin);
+                DataStream.WriteUInt32(v2);
+                DataStream.WriteUInt32(v1);
+            }
             MiscData.Flags[(byte)Flags.InfiniteAmmo] = cbInfiniteAmmo.Checked ? (byte)1 : (byte)0;
+            MiscData.Flags[(byte)Flags.IsTied] = cbJacket.Checked ? (byte)1 : (byte)0;
+            MiscData.Flags[(byte)Flags.KinesisIsActive] = cbKinesis.Checked ? (byte)1 : (byte)0;
+            MiscData.Flags[(byte)Flags.StasisIsActive] = cbStasis.Checked ? (byte)1 : (byte)0;
+
             MiscData.Nodes = (uint)nudNodes.Value;
             MiscData.ActiveSuit = (ItemDescriptor) cbActiveSuit.SelectedValue;
             NewInventoryData.Credits = (uint)nudCredits.Value;
