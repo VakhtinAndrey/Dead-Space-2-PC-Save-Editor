@@ -16,10 +16,12 @@ namespace DeadSpace2SaveEditor.Models
         public float DamageRatio { get; set; }
         public int Unk3 { get; set; }
         public byte[] Flags { get; set; }
+        public byte[] UnkBar1 { get; set; }
 
         public MiscData()
         {
             Flags = new byte[8];
+            UnkBar1 = new byte[5*16];
         }
 
         public MiscData(MemoryStream stream) : this()
@@ -54,6 +56,7 @@ namespace DeadSpace2SaveEditor.Models
             Unk3 = stream.ReadInt32();
             //System.Windows.Forms.MessageBox.Show(stream.Position.ToString("X"));
             stream.Read(Flags, 0, 8);
+            stream.Read(UnkBar1, 0, UnkBar1.Length);
             stream.Position = origPos;
         }
 
@@ -84,12 +87,14 @@ namespace DeadSpace2SaveEditor.Models
             ms.WriteInt32(InventorySlots);
             ms.WriteFloat(DamageRatio);
             ms.WriteInt32(Unk3);
-            ms.Write(Flags, 0, Flags.Length);
+            ms.Write(Flags, 0, Flags.Length); 
+            ms.Write(UnkBar1, 0, UnkBar1.Length); 
+            /*
             for (int i = 0; i < 20; i++)
             {
                 ms.WriteInt32(0);
             }
-
+            */
             var newData = ms.ToArray();
             stream.Replace(currPos, origSize + 4, newData);
 
